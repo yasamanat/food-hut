@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.nav-link {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sofia sans;
+}
+
+.nav-button {
+    background-color: #F65F5F;
+    color: beige;
+    border: 2px solid #F65F5F;
+    width: 160px;
+    height: 45px;
+    border-radius: 100px;
+    
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-2{
+    display: flex;
+}
+
+.sec2-right {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec2left-body{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.sec2-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 27px;
+
+}
+
+.sec2left-body {
+    color: azure;
+    display: flex;
+    gap: 27px;
+}
+.sec2left-body p{
+    font-family: sofia sans;
+    font-weight: 400px;
+    
+    
+}
+.sec2left-body h1{
+    font-family: sofia sans;
+    font-weight: 900;
+}
+.sec2left-body span{
+    color: #F65F5F;
+}
+
+
+
+
+
+.sec2-input {
+    border: 1px solid white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    gap:400px;
+}
+
+.sec2-input input {
+    color: aliceblue;
+    border: none;
+    border-radius: 100px;
+}
+.sec2-input img{
+    border-radius: 100px;
+    overflow: hidden;
+    padding: 6px;
+}
+
+.sec2-button{
+    
+display: flex;
+
+
+}

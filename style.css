@@ -148,3 +148,48 @@ display: flex;
 .review-1{
     background: -o-linear-gradient(to top , #F54748 ,#FFFFFF00);
 }
+.section-4{
+    display: flex;
+    justify-content:flex-start;
+   
+    
+}
+.sec4-left{
+ 
+    
+}
+.sec4-right{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.sec4-header {
+    color: aliceblue;
+    font-family: sofia sans;
+    font-size: larger;
+}
+.sec4-paragraph{
+    color: white;
+    font-family: sofia sans;
+}
+.sec4-button{
+    width : 114px;
+    height: 45px;
+    color: white;
+    background-color: #F54748;
+    border-radius: 100px;
+    border: none;
+}
+.sec4-list{
+    color: white;
+    
+}
+.sec4-list ul {
+    margin-bottom: 35px;
+}
+.sec4-feature{
+    display: flex;
+    gap: 100px;
+}
